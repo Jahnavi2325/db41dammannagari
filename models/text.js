@@ -4,5 +4,5 @@ const textSchema = mongoose.Schema({
     Font: String,
     Size: Number
 })
-module.exports = mongoose.model("text",
+module.exports = mongoose.model("Text",
     textSchema)
