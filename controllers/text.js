@@ -77,7 +77,7 @@ exports.text_detail = async function(req, res) {
     res.status(500)
     res.send(`{"error": document for id ${req.params.id} not found`);
     }
-};
+   };
 
    // Handle Costume delete on DELETE.
 exports.text_delete = async function(req, res) {
@@ -90,7 +90,7 @@ exports.text_delete = async function(req, res) {
     res.status(500)
     res.send(`{"error": Error deleting ${err}}`);
     }
-};
+    };
 
     // Handle a show one view with id specified by query
 exports.text_view_one_Page = async function (req, res) {
@@ -146,4 +146,4 @@ exports.text_delete_Page = async function(req, res) {
     res.status(500)
     res.send(`{'error': '${err}'}`);
     }
-};
+    };
